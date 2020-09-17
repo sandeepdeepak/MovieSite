@@ -1,0 +1,26 @@
+.movie {
+  height: 16rem;
+  width: 11rem;
+  margin: 3rem 1rem;
+}
+
+.movie-image {
+  height: 100%;
+  width: 100%;
+  transition: width 1s, height 1s;
+}
+
+.movie-image:hover {
+  filter: saturate(100%);
+  transition: width 1s, height 1s;
+}
+
+.movie:hover {
+  height: 18rem;
+  width: 12rem;
+  margin: 1.5rem 0.5rem;
+}
+
+.movie-name {
+  color: #ddd;
+}
